@@ -25,13 +25,16 @@ python manage.py runserver
 ## API
 ```
 # Home page
-http://127.0.0.1:8000/
+URL - http://127.0.0.1:8000/
+Method - GET
 
 # Recorded list
-http://127.0.0.1:8000/recordings/
+URL - http://127.0.0.1:8000/recordings/
+Method - GET
 
 # Specific Recorded video
-http://127.0.0.1:8000/playback/<Video Id>/
+URL - http://127.0.0.1:8000/playback/<Video Id>/
+Method - GET
 Ex: http://127.0.0.1:8000/playback/1/
 ```
 
